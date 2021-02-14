@@ -1,6 +1,6 @@
 ## Experimenting spark to cassandra connectivity.       
 refer https://medium.com/@jentekllc8888/tutorial-integrate-spark-sql-and-cassandra-complete-with-scala-and-python-example-codes-8307fe9c2901      
-spark_artifact --> Java
+spark_artifact --> Java     
 spark_python/spark-cassandra.py --> python        
 
 ## Starting Cassandra on Mac       
