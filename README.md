@@ -11,7 +11,4 @@ cassandra -f
 JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home cassandra -f      
 
 
-### spark_python/testspark.py is a set of generic useful spark functionalities
-Experimenting spark to cassandra connectivity.     
-spark_artifact --> Java     
-spark_python --> python.          
+### spark_python/testspark.py is a set of generic useful spark functionalities       
