@@ -1,0 +1,37 @@
+--- keyspaces ---
++--------------------+
+|           namespace|
++--------------------+
+|         system_auth|
+|               sales|
+|       system_schema|
+| spark_interview_new|
+|  system_distributed|
+|spark_interview_t...|
+|              system|
+|       system_traces|
+|     spark_interview|
++--------------------+
+
+--- spark_tbl_1 ---
++----+----+
+| tid|cm15|
++----+----+
+|tid2|  c2|
+|tid1|  c1|
++----+----+
+
+--- spark_tbl_2 ---
++----+------+
+| tid|amount|
++----+------+
+|tid1|  30.0|
++----+------+
+
+--- spark_tbl_join ---
++----+------+----+
+| tid|amount|cm15|
++----+------+----+
+|tid2| 100.0|  c2|
+|tid1|  30.0|  c1|
++----+------+----+
