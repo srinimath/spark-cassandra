@@ -1,4 +1,5 @@
-## Experimenting spark to cassandra connectivity.
+## Experimenting spark to cassandra connectivity.       
+refer https://medium.com/@jentekllc8888/tutorial-integrate-spark-sql-and-cassandra-complete-with-scala-and-python-example-codes-8307fe9c2901      
 spark_artifact --> Java
 spark_python/spark-cassandra.py --> python        
 
@@ -11,3 +12,6 @@ JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home cas
 
 
 ### spark_python/testspark.py is a set of generic useful spark functionalities
+Experimenting spark to cassandra connectivity.     
+spark_artifact --> Java     
+spark_python --> python.          
