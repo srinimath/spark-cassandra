@@ -1,5 +1,5 @@
 package com.sparkcassandra.example;
-import org.apache.spark.api.java.*;
+import org.apache.spark.api.java.*; 
 import org.apache.spark.SparkContext;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
@@ -41,9 +41,11 @@ public class SparkCassandra {
     }
 
     public void writeCassandra(Dataset<Row> df, String keySpace, String tableName){
+        System.out.println("Writing to cassandra " + keySpace + " " + tableName);
         df.write().format("org.apache.spark.sql.cassandra")
 						.option("table", tableName).option("keyspace", keySpace)
-						.mode("append").save();
+						.mode("overwrite").save();
+        System.out.println("Writing to cassandra completed " + keySpace + " " + tableName);
     }
     
     public static void main(String[] args) {

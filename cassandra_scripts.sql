@@ -7,6 +7,7 @@ create keyspace spark_interview with replication = {'class':'SimpleStrategy','re
 -- create tables
 create table spark_tbl_1(tid text primary key, cm15 text);
 create table spark_tbl_2(tid text primary key, amount double);
+create table spark_tbl_join(tid text primary key, cm15 text, amount double);
 -- describe tables
 
 -- insert
